@@ -1,0 +1,11 @@
+
+.menuHover:hover{
+    background-image: linear-gradient(to right, lightblue , blue);
+}
+
+.gotoIcon{
+    visibility: hidden;
+}
+
+
+.menuHover:hover .gotoIcon{ visibility: visible; }
